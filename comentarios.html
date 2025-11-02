@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Comentarios - Comercializadora González</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="container">
+  <h1>Comentarios</h1>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="madereras.html">Madereras</a>
+    <a href="comentarios.html" class="active">Comentarios</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
+
+<main class="container">
+  <div id="comments-list">
+    <div class="card"><strong>Luis R.</strong><br>Excelente servicio y productos para tarimas.</div>
+  </div>
+
+  <form id="comment-form" onsubmit="addComment(event)" class="card" style="margin-top:20px;">
+    <input id="cname" placeholder="Tu nombre" required>
+    <textarea id="cmsg" placeholder="Escribe tu comentario" required></textarea>
+    <button class="btn">Enviar</button>
+  </form>
+</main>
+
+<a href="https://wa.me/528123456789" target="_blank" class="whatsapp">💬</a>
+<footer>© 2025 Comercializadora González</footer>
+</body>
+</html>
